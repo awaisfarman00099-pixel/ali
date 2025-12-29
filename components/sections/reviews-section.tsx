@@ -9,133 +9,133 @@ import { Star, ChevronLeft, ChevronRight } from "lucide-react"
 const allReviews = [
   // Page 1 - 9 reviews
   {
-    name: "Ahmed Hassan",
+    name: "Ahmed Ali",
     role: "YouTube Creator",
     rating: 5,
     review:
-      "This course is a game-changer! The strategies are clear, actionable, and actually work. I made my first $1000 in just 30 days.",
+      "Yeh course bohot hi useful hai! Strategies clear hain aur kaam karti hain. Maine pehla $1000 sirf 30 din mein kamaya.",
     image: "👨",
   },
   {
-    name: "Sarah Khan",
+    name: "Fatima Khan",
     role: "Digital Marketer",
     rating: 5,
     review:
-      "The best investment I ever made. The mentorship support is unmatched. Highly recommend to anyone serious about YouTube automation.",
+      "Sab se acha investment jo maine kiya. Mentorship support unmatched hai. YouTube automation mein serious logon ko recommend karungi.",
     image: "👩",
   },
   {
-    name: "Mike Williams",
+    name: "Hassan Raza",
     role: "Entrepreneur",
     rating: 5,
     review:
-      "Finally, a course that delivers on its promises! The algorithm hacking module alone is worth 10x the price. Already making $2K/month.",
+      "Aakhirkar, ek course jo apne promises deliver karta hai! Algorithm hacking module hi 10x price ke worth hai. Ab $2K/month kama raha hoon.",
     image: "👨",
   },
   {
-    name: "Priya Patel",
+    name: "Ayesha Malik",
     role: "Content Creator",
     rating: 5,
     review:
-      "I was skeptical at first, but the results speak for themselves. My first channel hit 50K subscribers in 2 months. Amazing!",
+      "Shuru mein thoda skeptical tha, lekin results khud bolte hain. Mera pehla channel 2 mahine mein 50K subscribers par pohanch gaya. Amazing!",
     image: "👩",
   },
   {
-    name: "James Smith",
+    name: "Bilal Shah",
     role: "Business Owner",
     rating: 5,
     review:
-      "Outstanding content and support. The community is incredibly active and supportive. This is the real deal.",
+      "Outstanding content aur support. Community bohot active aur helpful hai. Yeh asli deal hai.",
     image: "👨",
   },
   {
-    name: "Linda Johnson",
+    name: "Sana Qureshi",
     role: "Freelancer",
     rating: 5,
     review:
-      "The automation techniques taught here have changed my entire business model. Now making passive income while I sleep!",
+      "Automation techniques ne mera business model badal diya. Ab main passive income kamata hoon jab main sota hoon!",
     image: "👩",
   },
   {
-    name: "David Chen",
+    name: "Usman Iqbal",
     role: "Software Developer",
     rating: 5,
     review:
-      "As a technical person, I appreciate the detailed explanations. The AI tools integration is brilliant. Worth every penny!",
+      "Technical insan hone ke nate, detailed explanations bohot achi lagi. AI tools integration brilliant hai. Har penny ke worth.",
     image: "👨",
   },
   {
-    name: "Emma Wilson",
+    name: "Mariam Saeed",
     role: "Marketing Manager",
     rating: 5,
     review:
-      "Best course investment ever! Doubled my income within 3 months. The support team is incredibly responsive and helpful.",
+      "Best course investment! 3 mahine mein income double ho gayi. Support team bohot responsive aur helpful hai.",
     image: "👩",
   },
   {
-    name: "Carlos Rodriguez",
+    name: "Omar Farooq",
     role: "Content Strategist",
     rating: 5,
     review:
-      "This course exceeded all my expectations. The practical strategies work immediately. Already recommended to 5 friends!",
+      "Course ne meri expectations exceed kar di. Practical strategies foran kaam karti hain. 5 doston ko already recommend kiya!",
     image: "👨",
   },
 
   // Page 2 - 9 reviews
   {
-    name: "Jessica Lee",
+    name: "Hina Riaz",
     role: "Video Editor",
     rating: 5,
     review:
-      "The video production automation section alone changed my life. Now I create 10x more content in half the time.",
+      "Video production automation section ne meri life change kar di. Ab main 10x zyada content half time mein create karti hoon.",
     image: "👩",
   },
   {
-    name: "Omar Ibrahim",
+    name: "Ali Hassan",
     role: "Entrepreneur",
     rating: 4,
     review:
-      "Excellent course with very practical strategies. A few modules could use more examples, but overall fantastic value.",
+      "Excellent course, practical strategies ke saath. Kuch modules mein examples aur honi chahiye the, lekin overall bohot acha value hai.",
     image: "👨",
   },
   {
-    name: "Sophie Martin",
+    name: "Sadia Khan",
     role: "Influencer",
     rating: 5,
     review:
-      "Nazakat is a true expert. His teaching style is engaging and easy to follow. I'm already implementing everything I learned.",
+      "Nazakat bohot expert hain. Unka teaching style engaging aur easy to follow hai. Jo seekha implement kar raha hoon.",
     image: "👩",
   },
   {
-    name: "Marcus Johnson",
+    name: "Fahad Malik",
     role: "Freelancer",
     rating: 5,
     review:
-      "Incredible ROI on this investment. Started my second channel and it's already generating revenue. Highly satisfied!",
+      "Incredible ROI. Dusra channel start kiya aur already revenue generate kar raha hai. Highly satisfied!",
     image: "👨",
   },
   {
-    name: "Elena Rossi",
+    name: "Zoya Ahmed",
     role: "Digital Creator",
     rating: 5,
     review:
-      "This course is pure gold. The monetization strategies are unique and highly effective. Best decision I made this year!",
+      "Course pure gold hai. Monetization strategies unique aur highly effective hain. Yeh saal ka best decision!",
     image: "👩",
   },
   {
-    name: "Kevin Park",
+    name: "Shahbaz Iqbal",
     role: "Business Analyst",
     rating: 4,
     review:
-      "Very comprehensive and well-structured course. Some advanced modules moved quite fast, but overall excellent quality.",
+      "Comprehensive aur well-structured course. Kuch advanced modules thodi fast move hue, lekin overall excellent quality.",
     image: "👨",
   },
   {
-    name: "Rachel Green",
+    name: "Areeba Tariq",
     role: "Content Creator",
     rating: 5,
     review:
-      "The community support is amazing! People are genuinely helping each other succeed. Worth it just for the network.",
+      "Community support amazing hai! Log genuinely ek dusre ko help kar rahe hain. Sirf network ke liye bhi worth hai.",
     image: "👩",
   },
   {
@@ -143,49 +143,49 @@ const allReviews = [
     role: "Marketing Entrepreneur",
     rating: 5,
     review:
-      "This is the real deal. Not a get-rich-quick scheme, but a legitimate system that works. Already at $3K/month!",
+      "Yeh asli deal hai. Get-rich-quick scheme nahi, lekin ek legitimate system jo kaam karta hai. Already $3K/month!",
     image: "👨",
   },
   {
-    name: "Victoria Stone",
+    name: "Maria Shah",
     role: "Producer",
     rating: 5,
     review:
-      "Professional, well-explained, and incredibly valuable. Nazakat knows what he's talking about. Best course ever taken!",
+      "Professional, well-explained, aur incredibly valuable. Nazakat ko pata hai kya kar rahe hain. Best course ever taken!",
     image: "👩",
   },
 
   // Page 3 - 9 reviews
   {
-    name: "Rajesh Kumar",
+    name: "Rizwan Ali",
     role: "Entrepreneur",
     rating: 5,
     review:
-      "The techniques work! I've been following them for 2 months and already seeing significant results. Worth every dollar.",
+      "Techniques kaam karti hain! 2 mahine follow kiya aur already significant results dekh raha hoon. Worth every dollar.",
     image: "👨",
   },
   {
-    name: "Fatima Ahmed",
+    name: "Fatima Noor",
     role: "Digital Marketer",
     rating: 5,
     review:
-      "Outstanding course structure. Every module builds on the previous one perfectly. Clear, concise, and actionable.",
+      "Outstanding course structure. Har module perfectly previous par build karta hai. Clear, concise, aur actionable.",
     image: "👩",
   },
   {
-    name: "Lucas Silva",
+    name: "Owais Farhan",
     role: "Creator",
     rating: 4,
     review:
-      "Great content overall. The algorithm module is exceptional. Would have loved more on specific tools integration.",
+      "Great content overall. Algorithm module exceptional hai. Tools integration pe aur content chahiye tha.",
     image: "👨",
   },
   {
-    name: "Natasha Ivanova",
+    name: "Nida Aslam",
     role: "Content Strategist",
     rating: 5,
     review:
-      "Phenomenal course! The strategies are cutting-edge and actually implementable. I'm seeing results already!",
+      "Phenomenal course! Strategies cutting-edge aur implementable hain. Already results dekh raha hoon!",
     image: "👩",
   },
   {
@@ -193,39 +193,39 @@ const allReviews = [
     role: "YouTube Strategist",
     rating: 5,
     review:
-      "Nazakat's expertise shines through every lesson. This is industry-leading content at an unbeatable price point.",
+      "Nazakat ka expertise har lesson mein shine karta hai. Industry-leading content aur unbeatable price point.",
     image: "👨",
   },
   {
-    name: "Amanda Brooks",
+    name: "Amina Riaz",
     role: "Freelancer",
     rating: 5,
     review:
-      "Life-changing course! My passive income is now my primary income. Can't thank Nazakat enough for sharing this.",
+      "Life-changing course! Mera passive income ab primary income hai. Nazakat ka shukriya!",
     image: "👩",
   },
   {
-    name: "Yuki Tanaka",
+    name: "Yasir Tanveer",
     role: "Tech Entrepreneur",
     rating: 5,
     review:
-      "The technical depth combined with practical application is perfect. I'm already 2 months ahead of my timeline.",
+      "Technical depth aur practical application perfect hai. Abhi se 2 mahine ahead hoon timeline ke.",
     image: "👨",
   },
   {
-    name: "Sofia Garcia",
+    name: "Sofia Ahmed",
     role: "Marketing Specialist",
     rating: 5,
     review:
-      "Professional quality throughout. Every lesson has actionable takeaways. This is what a premium course looks like.",
+      "Professional quality throughout. Har lesson ke actionable takeaways hain. Yeh hi premium course ka look hai.",
     image: "👩",
   },
   {
-    name: "Thomas Wilson",
+    name: "Tariq Mahmood",
     role: "Business Owner",
     rating: 5,
     review:
-      "Exceptional value! The monetization strategies alone paid for the course 10x over. Highly recommend to everyone!",
+      "Exceptional value! Monetization strategies ne course ka 10x return de diya. Sabko recommend karunga!",
     image: "👨",
   },
 ]
@@ -264,7 +264,7 @@ export default function ReviewsSection() {
             <span className="text-lg font-semibold text-accent">{averageRating}</span>
             <span className="text-muted-foreground">({allReviews.length} reviews)</span>
           </div>
-          <p className="text-xl text-muted-foreground">Trusted by creators worldwide</p>
+          <p className="text-xl text-muted-foreground">Creators Pakistan aur worldwide pe trust karte hain</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -277,7 +277,6 @@ export default function ReviewsSection() {
               whileHover={{ translateY: -4 }}
             >
               <Card className="glass p-6 h-full hover:glow-gold transition-all duration-300 flex flex-col">
-                {/* Header */}
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-3">
                     <div className="text-3xl">{review.image}</div>
@@ -288,7 +287,6 @@ export default function ReviewsSection() {
                   </div>
                 </div>
 
-                {/* Rating */}
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: review.rating }).map((_, i) => (
                     <motion.div
@@ -302,7 +300,6 @@ export default function ReviewsSection() {
                   ))}
                 </div>
 
-                {/* Review text */}
                 <p className="text-muted-foreground leading-relaxed flex-grow italic">"{review.review}"</p>
               </Card>
             </motion.div>
@@ -352,7 +349,6 @@ export default function ReviewsSection() {
           </Button>
         </motion.div>
 
-        {/* Page indicator */}
         <div className="text-center mt-6 text-sm text-muted-foreground">
           Page {currentPage + 1} of {totalPages}
         </div>
