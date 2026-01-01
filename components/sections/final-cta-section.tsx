@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react"
 
 export default function FinalCTASection() {
   const whatsappLink =
-    "https://wa.me/923067743193?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20your%20YouTube%20Automation%20course!"
+    "https://wa.me/447907859528?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20your%20YouTube%20Automation%20course!"
 
   const guarantees = ["30-day money-back guarantee", "Lifetime access to all updates", "Instant access upon enrollment"]
 
