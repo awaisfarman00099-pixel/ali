@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Nazakat Ali – YouTube Automation Empire",
+  title: "Ale – YouTube Automation Empire",
   description:
     "Build a Faceless YouTube Automation Empire in 2026. Earn in Dollars without Showing Your Face or Voice.",
   generator: "v0.app",

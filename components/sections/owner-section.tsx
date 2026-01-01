@@ -62,7 +62,7 @@ export default function OwnerSection() {
                 viewport={{ once: true }}
                 className="text-2xl text-accent font-semibold"
               >
-                Nazakat Ali
+                Ale
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -135,7 +135,7 @@ export default function OwnerSection() {
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg h-14 px-10"
                 >
-                  Chat with Nazakat Ali
+                  Chat with Ale
                 </Button>
               </a>
             </motion.div>
@@ -157,21 +157,12 @@ export default function OwnerSection() {
                   transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
                   className="text-9xl"
                 >
-                  👨‍💼
+                  <img src="/image/man.jpg" alt="Ale" className="w-full h-full object-cover rounded-3xl" />
                 </motion.div>
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold">Nazakat Ali</h3>
+                  <h3 className="text-2xl font-bold">Ale</h3>
                   <p className="text-muted-foreground">YouTube Automation Expert</p>
                 </div>
-                <motion.div
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-                  className="flex gap-2 justify-center pt-4"
-                >
-                  <div className="w-2 h-2 rounded-full bg-primary" />
-                  <div className="w-2 h-2 rounded-full bg-accent" />
-                  <div className="w-2 h-2 rounded-full bg-primary" />
-                </motion.div>
               </div>
             </Card>
           </motion.div>

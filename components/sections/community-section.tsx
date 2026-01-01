@@ -64,7 +64,7 @@ export default function CommunitySection() {
                     {msg.role === "admin" ? (
                       <>
                         <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                        <span className="text-primary">Nazakat Ali</span>
+                        <span className="text-primary">Ale</span>
                       </>
                     ) : (
                       <>

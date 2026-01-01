@@ -49,7 +49,7 @@ export default function AuthoritySection() {
                 viewport={{ once: true }}
                 className="text-5xl sm:text-6xl font-bold mb-4"
               >
-                Nazakat Ali
+                Ale
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
