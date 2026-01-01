@@ -73,7 +73,7 @@ const studentStories = [
     earnings: "$1000/month",
     timeframe: "4 Channels",
     content: "Suspense create karna koi in se seekhay.Crime stories mein atmosphere banana parta hai. Inki team ne jo dark visuals aur background music use kiya, us ne video mein jaan daal di. Client service bhi bohat achi hai, jo changes maine kahe wo foran kar diye. —-🏠 Faisal Khan, Crime Alert Channel 🏠",
-    image: "/image/23.jpeg",
+    image: "/image/8.jpeg",
     color: "from-secondary/20 to-accent/20",
   },
   {
@@ -192,5 +192,6 @@ export default function TestimonialsSection() {
         </motion.div>
       </div>
     </section>
+    
   )
 }
