@@ -7,87 +7,88 @@ import { Star, TrendingUp } from "lucide-react"
 
 const studentStories = [
   {
-    name: "Ahmed Hassan",
-    earnings: "$15,000",
+    name: "Kamran Bhatti",
+    earnings: "$500/month",
     timeframe: "In 90 Days",
     content:
-      "This course completely changed my perspective. Started with zero experience and now managing 3 profitable channels!",
-    image: "👨‍💻",
+"Main Saudi mein job karta hu. Maine pehlay 2 bar Pakistan mein paisay bhej kar dhoka khaya hai. Bohat darr ke Ale bhai ki team ko 'Starter Package' ke paisay bheje thay. Lekin yaar, pehli baar kisi ne waqt par kaam deliver kiya. Channel setup, logo, banner... sab professional. Jo overseas Pakistani invest karna chahte hain, ye banda trustworthy hai. --🏠 Kamran Bhatti, Riyadh (KSA)🏠",
+
+    image: "/image/16.jpeg",
     color: "from-primary/20 to-accent/20",
   },
   {
-    name: "Sara Khan",
-    earnings: "$8,000/month",
+    name: "Malik Zeeshan",
+    earnings: "$800/month",
     timeframe: "5 Channels",
     content:
-      "Never thought I could run multiple channels faceless. The system is incredibly powerful and well-structured.",
-    image: "👩‍💼",
+      "Property bikwanay ke liye YouTube channel chal gaya. Mera Real Estate ka kaam hai. Ale bhai ki team ne mujhe kaha ke property ki videos inke style mein banwain. Inhon ne jo Drone shots ki editing aur Script likhi, us se mujhe direct leads aana shuru ho gayin. Maine sirf views ke liye channel banwaya tha, lekin yahan to business barh gaya. Highly Recommended! —-🏠  Malik Zeeshan, Property Dealer (Lahore)🏠",
+    image: "/image/17.jpeg",
     color: "from-accent/20 to-primary/20",
   },
   {
-    name: "Mike Williams",
-    earnings: "$25,000/month",
+    name: "Ahsan Mir",
+    earnings: "$700/month",
     timeframe: "2 Channels",
     content:
-      "The algorithm hacking module alone is worth 10x the course price. Highly recommend to anyone serious about YouTube!",
-    image: "👨‍🔬",
+      "Test ke liye 1 video di thi, ab pura channel inke paas hai. Mujhe laga ye bhi baqi agencies ki tarah hongay jo template use karte hain. Maine check karne ke liye sirf 1 Video ka order diya. Jab output aya to main heran reh gaya—Editing, Sound Design, aur Storytelling bilkul TV Documentary jesi thi. Usi waqt maine 'Empire Builder' package sign kar liya. —-🏠 Ahsan Mir, Tech YouTuber 🏠",
+    image: "/image/18.jpeg",
     color: "from-primary/20 to-secondary/20",
   },
   {
-    name: "Priya Patel",
-    earnings: "$12,500",
+    name: "Sameer Gaming",
+    earnings: "$600/month",
     timeframe: "First Month",
-    content: "I was skeptical but the results are incredible. My first channel hit 50K subscribers in just 2 months!",
-    image: "👩‍🎓",
+    content: "Gaming videos mein wo 'Funny' element daal diya. Meri gaming videos bohat boring hoti thin. Ale ki team ne jo memes aur sound effects add kiye, meri Audience Retention 30% se 80% par chali gayi. Ab log comment karte hain ke 'Bhai editor ko salary double do'. Best service for gamers! -—🏠 Sameer Gaming, Karachi 🏠",
+    image: "/image/19.jpeg",
     color: "from-secondary/20 to-accent/20",
   },
   {
-    name: "James Chen",
-    earnings: "$20,000",
+    name: "Hafiz Abdullah",
+    earnings: "$900/month",
     timeframe: "Quarter 1",
     content:
-      "The mentorship support is unmatched. Having direct access to Nazakat made all the difference in my success.",
-    image: "👨‍💼",
+      "Waqiyat ko zinda kar diya. Main Islamic stories banata hu. Pehlay sirf tasweeren lagata tha. Phir maine '2D Ghost Factory' se animation karwai. Inhon ne jangon (battles) ke scenes aur characters ko jis tarah animate kiya, wo bilkul respectful aur engaging tha. Meri videos ab viral ja rahi hain kyunke visuals strong hain.—-🏠 Hafiz Abdullah, Content Creator 🏠",
+    image: "/image/20.jpeg",
     color: "from-primary/20 to-accent/20",
   },
   {
-    name: "Linda Rodriguez",
-    earnings: "$18,500/month",
+    name: "Rao Awais",
+    earnings: "$785/month",
     timeframe: "3 Channels",
     content:
-      "Now making passive income while I sleep! The automation techniques have completely transformed my business.",
-    image: "👩‍💻",
+      "Silicon Valley wali vibe di hai.Humein apni software company ke liye ek modern 3D Intro chahiye tha. Local designers samajh nahi pa rahe thay. Ale bhai ki 'Reality Forge' team ne pehli try mein hi perfect bana diya. Bohot sleek aur professional kaam hai.TechSolutions Ltd",
+    image: "/image/21.jpeg",
     color: "from-accent/20 to-primary/20",
   },
   {
-    name: "David Thompson",
-    earnings: "$10,000",
+    name: "Omer R",
+    earnings: "$950/month",
     timeframe: "60 Days",
-    content: "The curriculum is comprehensive and easy to follow. Went from 0 to profitable YouTube automation expert!",
-    image: "👨‍🎬",
+    content: "Sales double ho gayin is Ad ke baad. Humne apne Shoe Brand ke liye 3D ad banwaya. Jese joota hawa mein ghoomta hai aur lighting parti hai... wo shot dekh kar customer foran click karta hai. Facebook Ads par humara ROAS (Return on Ad Spend) barh gaya hai. Thank you Ale bhai for this quality.",
+    image: "/image/22.jpeg",
     color: "from-primary/20 to-secondary/20",
   },
   {
-    name: "Jessica Lee",
-    earnings: "$16,000/month",
+    name: "Faisal Khan",
+    earnings: "$1000/month",
     timeframe: "4 Channels",
-    content: "This course teaches the real strategies that actually work. No fluff, just pure actionable content.",
-    image: "👩‍🚀",
+    content: "Suspense create karna koi in se seekhay.Crime stories mein atmosphere banana parta hai. Inki team ne jo dark visuals aur background music use kiya, us ne video mein jaan daal di. Client service bhi bohat achi hai, jo changes maine kahe wo foran kar diye. —-🏠 Faisal Khan, Crime Alert Channel 🏠",
+    image: "/image/23.jpeg",
     color: "from-secondary/20 to-accent/20",
   },
   {
-    name: "Carlos Martinez",
-    earnings: "$22,500",
+    name: "Mrs. Nida",
+    earnings: "$700/month",
     timeframe: "4 Months",
-    content: "Best investment I've made. The community is supportive and everyone is crushing their goals!",
-    image: "👨‍🎨",
+    content: "Bachon ke liye best cartoons banaye.Kids content mein competition bohat hai. Mujhe unique look chahiye thi. Ale bhai ki team ne Cartoon Animator use kar ke jo characters banaye, wo bilkul TV quality ke thay. Ab bachay meri videos baar baar dekhte hain. Quality 10/10 hai.",
+    image: "/image/9.jpeg",
     color: "from-accent/20 to-secondary/20",
   },
 ]
 
 export default function TestimonialsSection() {
   const whatsappLink =
-    "https://wa.me/923067743193?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20your%20YouTube%20Automation%20course!"
+    "https://wa.me/447907859528?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20your%20YouTube%20Automation%20course!"
 
   return (
     <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-background">
@@ -99,8 +100,8 @@ export default function TestimonialsSection() {
           viewport={{ once: true }}
           className="text-center space-y-4 mb-16"
         >
-          <h2 className="text-5xl sm:text-6xl font-bold">Student Success Stories</h2>
-          <p className="text-xl text-muted-foreground">Real results from students just like you</p>
+          <h2 className="text-5xl sm:text-6xl font-bold">The Client Vault</h2>
+          <p className="text-xl text-muted-foreground">We don't sell services. We build assets that pay you while you sleep.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -119,7 +120,7 @@ export default function TestimonialsSection() {
                 {/* Header */}
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
-                    <div className="text-4xl mb-2">{story.image}</div>
+                    <img src={story.image} alt={story.name} className="w-16 h-16 rounded-full object-cover mb-2" />
                     <h3 className="font-bold text-lg">{story.name}</h3>
                   </div>
                   <TrendingUp className="w-6 h-6 text-accent" />

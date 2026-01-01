@@ -16,7 +16,7 @@ const communityMessages = [
 
 export default function CommunitySection() {
   const whatsappLink =
-    "https://wa.me/923067743193?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20joining%20the%20community!"
+    "https://wa.me/447907859528?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20joining%20the%20community!"
 
   return (
     <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-background overflow-hidden">

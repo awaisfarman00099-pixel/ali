@@ -11,42 +11,27 @@ const services = [
     title: "YouTube Automation Setup",
     description: "Complete end-to-end channel setup and optimization",
     color: "text-primary",
+    image: "img/1.png",
   },
   {
     icon: PaletteIcon,
     title: "2D Animation Service",
     description: "Professional 2D cartoon animation production",
     color: "text-accent",
+    image: "img/2.png",
   },
   {
     icon: RobotIcon,
     title: "3D Animation Service",
     description: "High-quality 3D character animation",
     color: "text-primary",
-  },
-  {
-    icon: RobotIcon,
-    title: "AI Avatar & Voice Setup",
-    description: "Realistic AI avatars and voice synthesis tools",
-    color: "text-accent",
-  },
-  {
-    icon: CameraIcon,
-    title: "YouTube Shorts Automation",
-    description: "Automated YouTube Shorts production at scale",
-    color: "text-primary",
-  },
-  {
-    icon: HeadsetIcon,
-    title: "100% Mentorship Support",
-    description: "Dedicated mentor support and 1-on-1 guidance",
-    color: "text-accent",
-  },
+    image: "img/3.png",
+  }
 ]
 
 export default function ServicesSection() {
   const whatsappLink =
-    "https://wa.me/923067743193?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20your%20YouTube%20Automation%20course!"
+    "https://wa.me/447907859528?text=Hi%20Nazakat%20Ali%2C%20I%27m%20interested%20in%20your%20YouTube%20Automation%20course!"
 
   return (
     <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-background">
@@ -65,7 +50,7 @@ export default function ServicesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {services.map((service, index) => {
             const Icon = service.icon
-            return (
+            return ( 
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 20 }}
@@ -84,27 +69,13 @@ export default function ServicesSection() {
                   </motion.div>
                   <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                   <p className="text-muted-foreground flex-grow">{service.description}</p>
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    whileHover={{ opacity: 1 }}
-                    className="mt-4 pt-4 border-t border-white/10"
-                  >
-                    <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="w-full border-accent text-accent bg-transparent hover:bg-accent/10"
-                      >
-                        Learn More
-                      </Button>
-                    </a>
-                  </motion.div>
+
+                    <img src={service.image} alt={service.title} className="w-full h-full object-cover" width={100} height={100} object-fit="cover" />
                 </Card>
               </motion.div>
-            )
+            );
           })}
         </div>
       </div>
-    </section>
-  )
+    </section>);
 }
